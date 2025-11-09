@@ -3,7 +3,7 @@ library(shiny)
 library(ggplot2)
 
 ## -- Source power analysis function -------------------------------------------------------
-source("power-function.R")
+source("function.R")
 
 ## -- Shiny app -------------------------------------------------------
 ui <- navbarPage(
@@ -198,4 +198,4 @@ server <- function(input, output, session) {
   })
 }
 
-shinyApp(ui, server) |> shiny::runApp()
+shinyApp(ui, server)
