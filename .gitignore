@@ -5,6 +5,7 @@
 
 # Session Data files
 .RData
+.RDataTmp
 
 # User-specific files
 .Ruserdata
@@ -39,3 +40,15 @@ vignettes/*.pdf
 ### R.Bookdown Stack ###
 # R package: bookdown caching files
 /*_files/
+
+# R Environment Variables
+.Renviron
+
+# pkgdown site
+docs/
+
+# translation temp files
+po/*~
+
+# RStudio Connect folder
+rsconnect/
